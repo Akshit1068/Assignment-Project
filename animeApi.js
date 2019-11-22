@@ -60,7 +60,7 @@ function search()
 
     else if(type=="TV Shows")
     {
-        $.getJSON("http://api.tvmaze.com/search/shows?q="+txtSearch,function(data){
+        $.getJSON("https://api.tvmaze.com/search/shows?q="+txtSearch,function(data){
                 //console.log(data);
 
 
@@ -91,7 +91,7 @@ function search()
 
     else if(type=="Movies")
     {
-        $.getJSON("http://www.omdbapi.com/?t="+txtSearch+"&apikey=666248b2",function(data){
+        $.getJSON("https://www.omdbapi.com/?t="+txtSearch+"&apikey=666248b2",function(data){
                 //console.log(data);
 
 
